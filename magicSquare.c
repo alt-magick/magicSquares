@@ -314,6 +314,8 @@ int main()
 		fprintf(fp, "\n");
 		printf("\n");
 	}
+	fprintf(fp,"\nRows Total = %d\n", rows);
+	fprintf(fp,"Matrix Sum = %d\n\n", total);
 	printf("\nRows Total = %d\n", rows);
 	printf("Matrix Sum = %d\n\n", total);
 	fclose(fp);
