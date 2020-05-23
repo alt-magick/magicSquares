@@ -265,13 +265,48 @@ int main()
 		for (j = 0; j < n; j++)
 		{
 			rows = rows + qMagico[i][j];
-			if(qMagico[i][j]<10){
-			printf("0%d  ", qMagico[i][j]);
-			fprintf(fp, "0%d  ", qMagico[i][j]);
-			}else{
-				printf("%d  ", qMagico[i][j]);
-				fprintf(fp, "%d  ", qMagico[i][j]);
+			if(n<4){
+				if(qMagico[i][j]<10){
+					printf("%d  ", qMagico[i][j]);
+					fprintf(fp, "%d  ", qMagico[i][j]);
+				}
 			}
+			else if(n<10){
+				if(qMagico[i][j]<10){
+					printf("0%d  ", qMagico[i][j]);
+					fprintf(fp, "0%d  ", qMagico[i][j]);
+				}else if(qMagico[i][j] >= 10 && qMagico[i][j] < 100){
+					printf("%d  ", qMagico[i][j]);
+					fprintf(fp, "%d  ", qMagico[i][j]);
+				}
+			}
+			else if(n<31){
+				if(qMagico[i][j]<10){
+					printf("00%d  ", qMagico[i][j]);
+					fprintf(fp, "00%d  ", qMagico[i][j]);
+				}else if(qMagico[i][j] >= 10 && qMagico[i][j] < 100){
+					printf("0%d  ", qMagico[i][j]);
+					fprintf(fp, "0%d  ", qMagico[i][j]);
+				}else if(qMagico[i][j] >= 100 && qMagico[i][j] < 1000){
+					printf("%d  ", qMagico[i][j]);
+					fprintf(fp, "%d  ", qMagico[i][j]);
+				}
+			}else if(n<100){
+				if(qMagico[i][j]<10){
+					printf("000%d  ", qMagico[i][j]);
+					fprintf(fp, "000%d  ", qMagico[i][j]);
+				}else if(qMagico[i][j] >= 10 && qMagico[i][j] < 100){
+					printf("00%d  ", qMagico[i][j]);
+					fprintf(fp, "00%d  ", qMagico[i][j]);
+				}else if(qMagico[i][j] >= 100 && qMagico[i][j] < 1000){
+					printf("0%d  ", qMagico[i][j]);
+					fprintf(fp, "0%d  ", qMagico[i][j]);
+				}else if(qMagico[i][j] >= 1000 && qMagico[i][j] < 10000){
+					printf("%d  ", qMagico[i][j]);
+					fprintf(fp, "%d  ", qMagico[i][j]);
+				}
+			}
+
 			total = total + qMagico[i][j];
 			
 		}
