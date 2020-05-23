@@ -1,9 +1,9 @@
-# magicSquares (en)
+# magicSquares
 
-The program creates a magic square with each side being the size you give to the program..
+Creates a magic square with each side being the size you set.
 
-The output is a Magic Square of side n.
+The output is a Magic Square of size n.
 
 Also, the program will generate a .txt file with the magic square.
 
-A complete documentation can be found in the pdf!
+Complete documentation can be found in the pdf!
