@@ -280,7 +280,7 @@ int main()
 					fprintf(fp, "%d  ", qMagico[i][j]);
 				}
 			}
-			else if(n<31){
+			else if(n<32){
 				if(qMagico[i][j]<10){
 					printf("00%d  ", qMagico[i][j]);
 					fprintf(fp, "00%d  ", qMagico[i][j]);
