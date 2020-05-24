@@ -10,10 +10,10 @@ int main()
 
     int qMagico[n][n];
 
-    //----------------------------Parte para N na forma 2n+1-----------------------------
+    //----------------------------Part for N in form 2n+1-----------------------------
     if (n % 2 == 1 )
     {
-        //Zerando a matriz. Dessa forma onde tiver 0 é onde a matriz não foi alterada ainda
+        //Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
         for (i = 0; i < n; i++)
         {
             for (j = 0; j < n; j++)
@@ -22,17 +22,17 @@ int main()
             }
         }
 
-        //Essa é a posição que o número 1 irá ficar
+        //This is the position that number 1 will be
         i = n/2; 
         j = n-1;
 
-        //Laço para ir determinando a posição dos números
+        //Loop to determine the position of the numbers
         for (num = 1; num <= n*n;)
         {
-            //Tratamento para que posições maiores que n² funcionem.
+            //Treatment so that positions larger than n² works.
             i = i % n;
             j = j % n;
-            //Tratamento para que posições negativas funcionem.
+            //Treatment for negative positions to work.
             if (i < 0)
             {
                 i = i + n;
@@ -43,7 +43,7 @@ int main()
                 j = j + n;
             }
 
-            //Caso a posicao esteja vazia colocamos NUM na posição acima e a direita do antecessor.
+            //If the position is empty, put NUM in the position above and to the right of the predecessor.
             if (qMagico[i][j] == 0)
             {
                 qMagico[i][j] = num;
@@ -51,7 +51,7 @@ int main()
                 j++;
                 num++;
             }
-            //Caso a posição esteja ocupada tentamos colocar NUM ao lado esquerdo de seu antecessor.
+            //If the position is occupied, we try to place NUM on the left side of its predecessor.
             else
             {
                 j-=2;
@@ -61,47 +61,47 @@ int main()
     }
     
 
-    //----------------------------Parte para N na forma 4n-----------------------------
+    //----------------------------Part for N in 4n form-----------------------------
     else if (n % 4 == 0)
     {
-        // Preenchemos o quadrado contando de 1 até n²
+        // We fill in the square counting from 1 to n²
         for ( i = 0; i<n; i++)
         {
             for (j = 0; j<n; j++)
                 qMagico[i][j] = (n*i) + j + 1;        
         }
 
-        // Mudando os valores de acordo com a regra
+        // Changing the values ​​according to the rule
         // (n*n+1)-qMagico[i][j]
-        // Canto superior esquerdo do quadrado
+        // Top left corner of the square
         for ( i = 0; i<n/4; i++)
         {
             for ( j = 0; j<n/4; j++)
                 qMagico[i][j] = (n*n + 1) - qMagico[i][j];
         }
 
-        // Canto superior direito do quadrado
+        // Top right corner of the square
         for ( i = 0; i< n/4; i++)
         {
             for ( j = 3* (n/4); j<n; j++)
                 qMagico[i][j] = (n*n + 1) - qMagico[i][j];
         }
 
-        // Inferior esquerdo do quadrado
+        // Bottom left of the square
         for ( i = 3 * n/4; i<n; i++)
         {
             for ( j = 0; j<n/4; j++)
                 qMagico[i][j] = (n*n + 1) - qMagico[i][j];
         }
     
-        // Inferior direito do quadrado
+        // Bottom right of the square
         for ( i = 3 * n/4; i<n; i++)
         {
             for ( j = 3* n/4; j<n; j++)
                 qMagico[i][j] = (n*n + 1) - qMagico[i][j];
         }
     
-        // Agora invertemos as linhas da matriz 2x2 no centro do quadrado
+        // Now we invert the lines of the 2x2 matrix in the center of the square
         for ( i = n/4; i<3* n/4; i++)
         {
             for ( j = n/4; j<3* n/4; j++)
@@ -109,12 +109,12 @@ int main()
         } 
     }
 
-    //----------------------------Parte para N na forma 4n + 2-----------------------------
+    //----------------------------Part for N in the form 4n + 2-----------------------------
     else if (n%4 == 2)
     {
         int qMagicoMini[n/2][n/2];
 
-         //Zerando a matriz. Dessa forma onde tiver 0 é onde a matriz não foi alterada ainda
+         //Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
         for (i = 0; i < n; i++)
         {
             for (j = 0; j < n; j++)
@@ -123,17 +123,17 @@ int main()
             }
         }
 
-        //Essa é a posição que o número 1 irá ficar
+        //This is the position that number 1 will be
         i = n/4; 
         j = (n/2)-1;
 
-        //Laço para ir determinando a posição dos números
+        //Loop to determine the position of the numbers
         for (num = 1; num <= ((n/2))*((n/2));)
         {
-            //Tratamento para que posições maiores que n² funcionem.
+            //Treatment so that positions larger than n² work.
             i = i % (n/2);
             j = j % (n/2);
-            //Tratamento para que posições negativas funcionem.
+            //Treatment for negative positions to work.
             if (i < 0)
             {
                 i = i + (n/2);
@@ -144,7 +144,7 @@ int main()
                 j = j + (n/2);
             }
 
-            //Caso a posicao esteja vazia colocamos NUM na posição acima e a direita do antecessor.
+            //If the position is empty, put NUM in the position above and to the right of the predecessor.
             if (qMagicoMini[i][j] == 0)
             {
                 qMagicoMini[i][j] = num;
@@ -152,7 +152,7 @@ int main()
                 j++;
                 num++;
             }
-            //Caso a posição esteja ocupada tentamos colocar NUM ao lado esquerdo de seu antecessor.
+            //If the position is occupied, we try to place NUM on the left side of its predecessor.
             else
             {
                 j-=2;
@@ -160,47 +160,47 @@ int main()
             }
         }
 
-        //Agora iremos fazer algumas alterações no mini quadrado
+        //Now we are going to make some changes to the mini square
 
-        //Primeiro vamos rodar ele 90º no sentido horário
+        //First let's rotate it 90º clockwise
         for (int x = 0; x < (n / 4); x++) 
         { 
             // Consider elements in group of 4 in  
             // current square 
             for (int y = x; y < (n/2)-x-1; y++) 
             { 
-                // Guardando valor atual em variável temporária
+                // Keeping current value in temporary variable
                 int aux = qMagicoMini[x][y]; 
     
-                // Direita pra Cima
+                // Right Up
                 qMagicoMini[x][y] = qMagicoMini[y][(n/2)-1-x]; 
     
-                // Baixo pra Direita
+                // Down to Right
                 qMagicoMini[y][(n/2)-1-x] = qMagicoMini[(n/2)-1-x][(n/2)-1-y]; 
     
-                // Esquerda pra Baixo
+                // Left Down
                 qMagicoMini[(n/2)-1-x][(n/2)-1-y] = qMagicoMini[(n/2)-1-y][x]; 
     
-                // Esquerda
+                // Left
                 qMagicoMini[(n/2)-1-y][x] = aux;
             }
         }
 
-        //Depois vamos espelhar ele no eixo vertical
+        //Then we will mirror it on the vertical axis
         for (int i = 0; i < (n/2); i++)
         {
             for (int j = 0; j < (n/4); j++)
             {
-                //Guardando na auxiliar
+                //Saving in auxiliary
                 int aux = qMagicoMini[i][j];
-                //Trocando de posição pela coluna oposta
+                //Changing positions with the opposite column
                 qMagicoMini[i][j] = qMagicoMini[i][(n/2)-j-1];
-                //Colocando a posição atual na coluna oposta
+                //Placing the current position in the opposite column
                 qMagicoMini[i][(n/2)-j-1] = aux;
             }
         }
 
-        //Agora preencheremos o Quadrado com variações de nosso Mini Quadrado
+        //Now we will fill the Square with variations of our Mini Square
         for (int i = 0; i < n; i ++)
         {
             for (int j = 0; j < n; j++)
@@ -216,8 +216,8 @@ int main()
             }
         }
 
-        //Faremos umas trocas para que o quadrado se torne mágico, primeiramente trocando entre o quadrante 2 e 3 (Imagine os quadrantes do quadrado com os do plano cartesiano)
-        //É extremamente recomendado o artigo Solving a Singly Even Magic Square do WikiHow para que se entenda a troca a seguir.
+        //We will make some changes so that the square becomes magical, first switching between quadrant 2 and 3 (Imagine the quadrants of the square with those of the Cartesian plane)
+        //WikiHow's Solving a Singly Even Magic Square article is highly recommended to understand the trade-off below.
         int temp = n/4;
         
         for (int i = 0; i < n/2; i++)
@@ -239,7 +239,7 @@ int main()
             }
         }
 
-        //Caso o numero seja maior que 6 temos que fazer mais trocas
+        //If the number is greater than 6 we have to make more exchanges
         if(n > 6)
         {
             for (int i = 0; i < n/2; i++)
