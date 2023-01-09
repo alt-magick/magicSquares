@@ -7,3 +7,6 @@ The output is a Magic Square of size n.
 Also, the program will generate a .txt file with the magic square.
 
 Complete documentation can be found in the pdf.
+
+I ported this to windows with modern C++ and corrected the format of
+the matrix
