@@ -1,17 +1,23 @@
+#define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #define N 100
 
 int main()
 {
-	
-	int n, num, i, j;
+	int n;
+
+	int num, i, j;
 	printf("\nSize of square: ");
 	scanf("%d", &n);
 	printf("\n");
-	int qMagico[n][n];
 	
+	int** qMagico = new int* [n];
+	for (int lp = 0; lp < n; ++lp)
+		qMagico[lp] = new int[n];
+	
+
 	//----------------------------Part for N in form 2n+1-----------------------------
-	if (n % 2 == 1 )
+	if (n % 2 == 1)
 	{
 		//Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
 		for (i = 0; i < n; i++)
@@ -21,13 +27,13 @@ int main()
 				qMagico[i][j] = 0;
 			}
 		}
-		
+
 		//This is the position that number 1 will be
-		i = n/2; 
-		j = n-1;
-		
+		i = n / 2;
+		j = n - 1;
+
 		//Loop to determine the position of the numbers
-		for (num = 1; num <= n*n;)
+		for (num = 1; num <= n * n;)
 		{
 			//Treatment so that positions larger than n² works.
 			i = i % n;
@@ -37,12 +43,12 @@ int main()
 			{
 				i = i + n;
 			}
-			
+
 			if (j < 0)
 			{
 				j = j + n;
 			}
-			
+
 			//If the position is empty, put NUM in the position above and to the right of the predecessor.
 			if (qMagico[i][j] == 0)
 			{
@@ -54,66 +60,68 @@ int main()
 			//If the position is occupied, we try to place NUM on the left side of its predecessor.
 			else
 			{
-				j-=2;
+				j -= 2;
 				i++;
 			}
 		}
 	}
-	
-	
+
+
 	//----------------------------Part for N in 4n form-----------------------------
 	else if (n % 4 == 0)
 	{
 		// We fill in the square counting from 1 to n²
-		for ( i = 0; i<n; i++)
+		for (i = 0; i < n; i++)
 		{
-			for (j = 0; j<n; j++)
-				qMagico[i][j] = (n*i) + j + 1;        
+			for (j = 0; j < n; j++)
+				qMagico[i][j] = (n * i) + j + 1;
 		}
-		
+
 		// Changing the values ​​according to the rule
 		// (n*n+1)-qMagico[i][j]
 		// Top left corner of the square
-		for ( i = 0; i<n/4; i++)
+		for (i = 0; i < n / 4; i++)
 		{
-			for ( j = 0; j<n/4; j++)
-				qMagico[i][j] = (n*n + 1) - qMagico[i][j];
+			for (j = 0; j < n / 4; j++)
+				qMagico[i][j] = (n * n + 1) - qMagico[i][j];
 		}
-		
+
 		// Top right corner of the square
-		for ( i = 0; i< n/4; i++)
+		for (i = 0; i < n / 4; i++)
 		{
-			for ( j = 3* (n/4); j<n; j++)
-				qMagico[i][j] = (n*n + 1) - qMagico[i][j];
+			for (j = 3 * (n / 4); j < n; j++)
+				qMagico[i][j] = (n * n + 1) - qMagico[i][j];
 		}
-		
+
 		// Bottom left of the square
-		for ( i = 3 * n/4; i<n; i++)
+		for (i = 3 * n / 4; i < n; i++)
 		{
-			for ( j = 0; j<n/4; j++)
-				qMagico[i][j] = (n*n + 1) - qMagico[i][j];
+			for (j = 0; j < n / 4; j++)
+				qMagico[i][j] = (n * n + 1) - qMagico[i][j];
 		}
-		
+
 		// Bottom right of the square
-		for ( i = 3 * n/4; i<n; i++)
+		for (i = 3 * n / 4; i < n; i++)
 		{
-			for ( j = 3* n/4; j<n; j++)
-				qMagico[i][j] = (n*n + 1) - qMagico[i][j];
+			for (j = 3 * n / 4; j < n; j++)
+				qMagico[i][j] = (n * n + 1) - qMagico[i][j];
 		}
-		
+
 		// Now we invert the lines of the 2x2 matrix in the center of the square
-		for ( i = n/4; i<3* n/4; i++)
+		for (i = n / 4; i < 3 * n / 4; i++)
 		{
-			for ( j = n/4; j<3* n/4; j++)
-				qMagico[i][j] = (n*n + 1) - qMagico[i][j];
-		} 
+			for (j = n / 4; j < 3 * n / 4; j++)
+				qMagico[i][j] = (n * n + 1) - qMagico[i][j];
+		}
 	}
-	
+
 	//----------------------------Part for N in the form 4n + 2-----------------------------
-	else if (n%4 == 2)
+	else if (n % 4 == 2)
 	{
-		int qMagicoMini[n/2][n/2];
-		
+		int** qMagicoMini = new int* [n /2];
+		for (int lp = 0; lp < n; ++lp)
+			qMagicoMini[lp] = new int[n / 2];
+
 		//Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
 		for (i = 0; i < n; i++)
 		{
@@ -122,28 +130,28 @@ int main()
 				qMagicoMini[i][j] = 0;
 			}
 		}
-		
+
 		//This is the position that number 1 will be
-		i = n/4; 
-		j = (n/2)-1;
-		
+		i = n / 4;
+		j = (n / 2) - 1;
+
 		//Loop to determine the position of the numbers
-		for (num = 1; num <= ((n/2))*((n/2));)
+		for (num = 1; num <= ((n / 2)) * ((n / 2));)
 		{
 			//Treatment so that positions larger than n² work.
-			i = i % (n/2);
-			j = j % (n/2);
+			i = i % (n / 2);
+			j = j % (n / 2);
 			//Treatment for negative positions to work.
 			if (i < 0)
 			{
-				i = i + (n/2);
+				i = i + (n / 2);
 			}
-			
+
 			if (j < 0)
 			{
-				j = j + (n/2);
+				j = j + (n / 2);
 			}
-			
+
 			//If the position is empty, put NUM in the position above and to the right of the predecessor.
 			if (qMagicoMini[i][j] == 0)
 			{
@@ -155,108 +163,108 @@ int main()
 			//If the position is occupied, we try to place NUM on the left side of its predecessor.
 			else
 			{
-				j-=2;
+				j -= 2;
 				i++;
 			}
 		}
-		
+
 		//Now we are going to make some changes to the mini square
-		
+
 		//First let's rotate it 90º clockwise
-		for (int x = 0; x < (n / 4); x++) 
-		{ 
+		for (int x = 0; x < (n / 4); x++)
+		{
 			// Consider elements in group of 4 in  
 			// current square 
-			for (int y = x; y < (n/2)-x-1; y++) 
-			{ 
+			for (int y = x; y < (n / 2) - x - 1; y++)
+			{
 				// Keeping current value in temporary variable
-				int aux = qMagicoMini[x][y]; 
-				
+				int aux = qMagicoMini[x][y];
+
 				// Right Up
-				qMagicoMini[x][y] = qMagicoMini[y][(n/2)-1-x]; 
-				
+				qMagicoMini[x][y] = qMagicoMini[y][(n / 2) - 1 - x];
+
 				// Down to Right
-				qMagicoMini[y][(n/2)-1-x] = qMagicoMini[(n/2)-1-x][(n/2)-1-y]; 
-				
+				qMagicoMini[y][(n / 2) - 1 - x] = qMagicoMini[(n / 2) - 1 - x][(n / 2) - 1 - y];
+
 				// Left Down
-				qMagicoMini[(n/2)-1-x][(n/2)-1-y] = qMagicoMini[(n/2)-1-y][x]; 
-				
+				qMagicoMini[(n / 2) - 1 - x][(n / 2) - 1 - y] = qMagicoMini[(n / 2) - 1 - y][x];
+
 				// Left
-				qMagicoMini[(n/2)-1-y][x] = aux;
+				qMagicoMini[(n / 2) - 1 - y][x] = aux;
 			}
 		}
-		
+
 		//Then we will mirror it on the vertical axis
-		for (int i = 0; i < (n/2); i++)
+		for (int i = 0; i < (n / 2); i++)
 		{
-			for (int j = 0; j < (n/4); j++)
+			for (int j = 0; j < (n / 4); j++)
 			{
 				//Saving in auxiliary
 				int aux = qMagicoMini[i][j];
 				//Changing positions with the opposite column
-				qMagicoMini[i][j] = qMagicoMini[i][(n/2)-j-1];
+				qMagicoMini[i][j] = qMagicoMini[i][(n / 2) - j - 1];
 				//Placing the current position in the opposite column
-				qMagicoMini[i][(n/2)-j-1] = aux;
+				qMagicoMini[i][(n / 2) - j - 1] = aux;
 			}
 		}
-		
+
 		//Now we will fill the Square with variations of our Mini Square
-		for (int i = 0; i < n; i ++)
+		for (int i = 0; i < n; i++)
 		{
 			for (int j = 0; j < n; j++)
 			{
-				if (i < n/2 && j < n/2)
+				if (i < n / 2 && j < n / 2)
 					qMagico[i][j] = qMagicoMini[i][j];
-				if (i >= n/2 && j < n/2)
-					qMagico[i][j] = qMagicoMini[i - (n/2)][j] + (3*n*n/4);
-				if (i < n/2 && j >= n/2)
-					qMagico[i][j] = qMagicoMini[i][j - (n/2)] + (n*n/2);
-				if (i >= n/2 && j >= n/2)
-					qMagico[i][j] = qMagicoMini[i - (n/2)][j - (n/2)] + (n*n/4);
+				if (i >= n / 2 && j < n / 2)
+					qMagico[i][j] = qMagicoMini[i - (n / 2)][j] + (3 * n * n / 4);
+				if (i < n / 2 && j >= n / 2)
+					qMagico[i][j] = qMagicoMini[i][j - (n / 2)] + (n * n / 2);
+				if (i >= n / 2 && j >= n / 2)
+					qMagico[i][j] = qMagicoMini[i - (n / 2)][j - (n / 2)] + (n * n / 4);
 			}
 		}
-		
+
 		//We will make some changes so that the square becomes magical, first switching between quadrant 2 and 3 (Imagine the quadrants of the square with those of the Cartesian plane)
 		//WikiHow's Solving a Singly Even Magic Square article is highly recommended to understand the trade-off below.
-		int temp = n/4;
-		
-		for (int i = 0; i < n/2; i++)
+		int temp = n / 4;
+
+		for (int i = 0; i < n / 2; i++)
 		{
-			for (int j = 0; j < n/4; j++)
+			for (int j = 0; j < n / 4; j++)
 			{
 				if (i == (temp) && j == 0)
 				{
-					int aux = qMagico[i][j+(temp)];
-					qMagico[i][j+(temp)] = qMagico[i + (n/2)][j+(temp)];
-					qMagico[i + (n/2)][j+(temp)] = aux;
+					int aux = qMagico[i][j + (temp)];
+					qMagico[i][j + (temp)] = qMagico[i + (n / 2)][j + (temp)];
+					qMagico[i + (n / 2)][j + (temp)] = aux;
 				}
 				else
 				{
 					int aux = qMagico[i][j];
-					qMagico[i][j] = qMagico[i+(n/2)][j];
-					qMagico[i+(n/2)][j] = aux;
+					qMagico[i][j] = qMagico[i + (n / 2)][j];
+					qMagico[i + (n / 2)][j] = aux;
 				}
 			}
 		}
-		
+
 		//If the number is greater than 6 we have to make more exchanges
-		if(n > 6)
+		if (n > 6)
 		{
-			for (int i = 0; i < n/2; i++)
+			for (int i = 0; i < n / 2; i++)
 			{
-				for (int j = 0; j < temp-1; j++)
+				for (int j = 0; j < temp - 1; j++)
 				{
-					int aux = qMagico[i][n-j-1];
-					qMagico[i][n-j-1] = qMagico[i+(n/2)][n-j-1];
-					qMagico[i + (n/2)][n-j-1] = aux;
+					int aux = qMagico[i][n - j - 1];
+					qMagico[i][n - j - 1] = qMagico[i + (n / 2)][n - j - 1];
+					qMagico[i + (n / 2)][n - j - 1] = aux;
 				}
 			}
 		}
-		
+
 	}
-	
-	
-	FILE *fp = fopen("qMagico.txt", "w");
+
+
+	FILE* fp = fopen("qMagico.txt", "w");
 	int total = 0;
 	int rows = 0;
 	for (i = 0; i < n; i++)
@@ -265,61 +273,68 @@ int main()
 		for (j = 0; j < n; j++)
 		{
 			rows = rows + qMagico[i][j];
-			if(n<4){
-				if(qMagico[i][j]<10){
+			if (n < 4) {
+				if (qMagico[i][j] < 10) {
 					printf("%d  ", qMagico[i][j]);
 					fprintf(fp, "%d  ", qMagico[i][j]);
 				}
 			}
-			else if(n<10){
-				if(qMagico[i][j]<10){
+			else if (n < 10) {
+				if (qMagico[i][j] < 10) {
 					printf("0%d  ", qMagico[i][j]);
 					fprintf(fp, "0%d  ", qMagico[i][j]);
-				}else if(qMagico[i][j] >= 10 && qMagico[i][j] < 100){
+				}
+				else if (qMagico[i][j] >= 10 && qMagico[i][j] < 100) {
 					printf("%d  ", qMagico[i][j]);
 					fprintf(fp, "%d  ", qMagico[i][j]);
 				}
 			}
-			else if(n<32){
-				if(qMagico[i][j]<10){
+			else if (n < 32) {
+				if (qMagico[i][j] < 10) {
 					printf("00%d  ", qMagico[i][j]);
 					fprintf(fp, "00%d  ", qMagico[i][j]);
-				}else if(qMagico[i][j] >= 10 && qMagico[i][j] < 100){
+				}
+				else if (qMagico[i][j] >= 10 && qMagico[i][j] < 100) {
 					printf("0%d  ", qMagico[i][j]);
 					fprintf(fp, "0%d  ", qMagico[i][j]);
-				}else if(qMagico[i][j] >= 100 && qMagico[i][j] < 1000){
+				}
+				else if (qMagico[i][j] >= 100 && qMagico[i][j] < 1000) {
 					printf("%d  ", qMagico[i][j]);
 					fprintf(fp, "%d  ", qMagico[i][j]);
 				}
-			}else if(n<100){
-				if(qMagico[i][j]<10){
+			}
+			else if (n < 100) {
+				if (qMagico[i][j] < 10) {
 					printf("000%d  ", qMagico[i][j]);
 					fprintf(fp, "000%d  ", qMagico[i][j]);
-				}else if(qMagico[i][j] >= 10 && qMagico[i][j] < 100){
+				}
+				else if (qMagico[i][j] >= 10 && qMagico[i][j] < 100) {
 					printf("00%d  ", qMagico[i][j]);
 					fprintf(fp, "00%d  ", qMagico[i][j]);
-				}else if(qMagico[i][j] >= 100 && qMagico[i][j] < 1000){
+				}
+				else if (qMagico[i][j] >= 100 && qMagico[i][j] < 1000) {
 					printf("0%d  ", qMagico[i][j]);
 					fprintf(fp, "0%d  ", qMagico[i][j]);
-				}else if(qMagico[i][j] >= 1000 && qMagico[i][j] < 10000){
+				}
+				else if (qMagico[i][j] >= 1000 && qMagico[i][j] < 10000) {
 					printf("%d  ", qMagico[i][j]);
 					fprintf(fp, "%d  ", qMagico[i][j]);
 				}
 			}
 
 			total = total + qMagico[i][j];
-			
+
 		}
-		
+
 		fprintf(fp, "\n");
 		printf("\n");
 	}
-	fprintf(fp,"\nRows Total = %d\n", rows);
-	fprintf(fp,"Matrix Sum = %d\n\n", total);
+	fprintf(fp, "\nRows Total = %d\n", rows);
+	fprintf(fp, "Matrix Sum = %d\n\n", total);
 	printf("\nRows Total = %d\n", rows);
 	printf("Matrix Sum = %d\n\n", total);
 	fclose(fp);
-	
+
 	return 0;
-	
+
 }
