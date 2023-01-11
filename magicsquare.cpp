@@ -1,20 +1,46 @@
-#define _CRT_SECURE_NO_DEPRECATE
+
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 #define N 100
 
-int main()
-{
-	int n;
+using namespace std;
 
-	int num, i, j;
-	printf("\nSize of square: ");
-	scanf("%d", &n);
+int print_image()
+{
+	
+	FILE* fptr2 = NULL;
+
+	if ((fptr2 = fopen("image.txt", "r")) == NULL)
+	{
+		fprintf(stderr, "error opening %s\n", "image.txt");
+		return 1;
+	}
+
+	char read_string[75];
+
+	while (fgets(read_string, sizeof(read_string), fptr2) != NULL)
+		printf("%s", read_string);
+	fclose(fptr2);
+
+	return 0;
+
+	
+}
+
+int start(int n)
+{
+
+	int num = 0;
+	int i = 0;
+	int j = 0;
 	printf("\n");
-	
-	int** qMagico = new int* [n];
-	for (int lp = 0; lp < n; ++lp)
-		qMagico[lp] = new int[n];
-	
+
+        int** qMagico;
+        qMagico = new int*[n];
+        for (int ii = 0; ii < n; ii++)
+            qMagico[ii] = new int[n];
 
 	//----------------------------Part for N in form 2n+1-----------------------------
 	if (n % 2 == 1)
@@ -118,9 +144,11 @@ int main()
 	//----------------------------Part for N in the form 4n + 2-----------------------------
 	else if (n % 4 == 2)
 	{
-		int** qMagicoMini = new int* [n /2];
-		for (int lp = 0; lp < n; ++lp)
-			qMagicoMini[lp] = new int[n / 2];
+
+	        int** qMagicoMini;
+        	qMagicoMini = new int*[n];
+        	for (int cc = 0; cc < n; cc++)
+            		qMagicoMini[cc] = new int[n / 2];
 
 		//Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
 		for (i = 0; i < n; i++)
@@ -264,7 +292,7 @@ int main()
 	}
 
 
-	FILE* fp = fopen("qMagico.txt", "w");
+	FILE* fp = fopen("matrix.txt", "a");
 	int total = 0;
 	int rows = 0;
 	for (i = 0; i < n; i++)
@@ -329,12 +357,73 @@ int main()
 		fprintf(fp, "\n");
 		printf("\n");
 	}
-	fprintf(fp, "\nRows Total = %d\n", rows);
-	fprintf(fp, "Matrix Sum = %d\n\n", total);
+
+	time_t now;
+	time(&now);
+	fprintf(fp, "\n%s", ctime(&now));
+
+	fprintf(fp, "Rows Total = %d\n", rows);
+	fprintf(fp, "Matrix Sum = %d\n", total);
+
 	printf("\nRows Total = %d\n", rows);
-	printf("Matrix Sum = %d\n\n", total);
+	printf("Matrix Sum = %d\n", total);
 	fclose(fp);
 
 	return 0;
 
 }
+
+
+int main(int argc, char** argv)
+{
+	int step = 0;
+	while (1) {
+		int n;
+		printf("\n");
+		if (argc == 2 && step == 0) {
+			n = atoi(argv[1]);
+		}
+		else {
+			printf("Matrix Size: ");
+			scanf("%d", &n);
+		}
+
+		int cnt = 0;
+		printf("\n");
+		step = 0;
+		while (step == 0) {
+			system("cls");
+			cnt++;
+
+			print_image();
+
+			time_t now;
+			time(&now);
+			printf("%s", ctime(&now));
+			printf("Saving to matrix.txt\n");
+
+			
+			start(n);
+
+			FILE* fp = fopen("matrix.txt", "a");
+			//fprintf(fp, "%s \n", ctime(&now));
+			printf("Matrix: %d x %d \n", n, n);
+			fprintf(fp, "Matrix: %d x %d \n", n, n);
+			fprintf(fp, "Iteration = %d\n\n", cnt);
+			printf("Iteration = %d\n\n", cnt);
+			printf("(R) Resets the Matrix.\n");
+			printf("(Q) Exits.\n");
+			fclose(fp);
+
+			char ch =  getc(stdin);
+			if (ch == 'q' || ch == 'Q') {
+				return 0;
+			}
+			if (ch == 'r' || ch == 'R') {
+				step = 1;
+			}
+		}
+	}
+	return 0;
+}
+
