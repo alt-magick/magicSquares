@@ -150,7 +150,7 @@ int start(int n)
 		int** qMagicoMini;
 		qMagicoMini = new int* [n];
 		for (int cc = 0; cc < n; cc++)
-			qMagicoMini[cc] = new int[n / 2];
+			qMagicoMini[cc] = new int[n];
 
 		//Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
 		for (i = 0; i < n; i++)
