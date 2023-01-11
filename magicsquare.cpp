@@ -1,6 +1,8 @@
-
+#define _CRT_SECURE_NO_DEPRECATE
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #include <time.h>
 
 #define N 100
@@ -9,7 +11,7 @@ using namespace std;
 
 int print_image()
 {
-	
+
 	FILE* fptr2 = NULL;
 
 	if ((fptr2 = fopen("image.txt", "r")) == NULL)
@@ -26,7 +28,7 @@ int print_image()
 
 	return 0;
 
-	
+
 }
 
 int start(int n)
@@ -37,10 +39,10 @@ int start(int n)
 	int j = 0;
 	printf("\n");
 
-        int** qMagico;
-        qMagico = new int*[n];
-        for (int ii = 0; ii < n; ii++)
-            qMagico[ii] = new int[n];
+	int** qMagico;
+	qMagico = new int* [n];
+	for (int ii = 0; ii < n; ii++)
+		qMagico[ii] = new int[n];
 
 	//----------------------------Part for N in form 2n+1-----------------------------
 	if (n % 2 == 1)
@@ -145,10 +147,10 @@ int start(int n)
 	else if (n % 4 == 2)
 	{
 
-	        int** qMagicoMini;
-        	qMagicoMini = new int*[n];
-        	for (int cc = 0; cc < n; cc++)
-            		qMagicoMini[cc] = new int[n / 2];
+		int** qMagicoMini;
+		qMagicoMini = new int* [n];
+		for (int cc = 0; cc < n; cc++)
+			qMagicoMini[cc] = new int[n / 2];
 
 		//Resetting the matrix. So where you have 0 is where the matrix hasn't changed yet
 		for (i = 0; i < n; i++)
@@ -402,7 +404,7 @@ int main(int argc, char** argv)
 			printf("%s", ctime(&now));
 			printf("Saving to matrix.txt\n");
 
-			
+
 			start(n);
 
 			FILE* fp = fopen("matrix.txt", "a");
@@ -415,7 +417,7 @@ int main(int argc, char** argv)
 			printf("(Q) Exits.\n");
 			fclose(fp);
 
-			char ch =  getc(stdin);
+			char ch = getc(stdin);
 			if (ch == 'q' || ch == 'Q') {
 				return 0;
 			}
