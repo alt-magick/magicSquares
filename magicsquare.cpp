@@ -395,7 +395,7 @@ int main(int argc, char** argv)
 		step = 0;
 		while (step == 0) {
 			system("cls");
-			cnt++;
+			
 
 			print_image();
 
@@ -424,6 +424,7 @@ int main(int argc, char** argv)
 			if (ch == 'r' || ch == 'R') {
 				step = 1;
 			}
+			cnt++;
 		}
 	}
 	return 0;
