@@ -52,10 +52,15 @@ This is the basic system:
   
 Capricorn / Saturn:  
 ===================  
-  
- 2 | 7 | 6  
- 9 | 5 | 1  
- 4 | 3 | 8  
+|               |               |       |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+ 
+ 2  7  6  
+ 9  5  1  
+ 4  3  8  
   
  Rows Total:	15  
  Matrix Sum:	45  
