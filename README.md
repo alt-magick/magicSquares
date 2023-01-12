@@ -59,10 +59,10 @@ Capricorn / Saturn:
   
  Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15  
  Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45  
- Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 x 3  
- Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archangels  
- Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gabriel  
- Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developing / Shapeshifting  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 x 3  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archangels  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gabriel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developing / Shapeshifting  
   
    
 Sagitarius / Jupiter:  
