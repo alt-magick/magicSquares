@@ -168,12 +168,12 @@ Cancer / Moon:
  48&nbsp;  38&nbsp;  28&nbsp;  27&nbsp;  17&nbsp;  07&nbsp;  78&nbsp;  68&nbsp;  58  
  37&nbsp;  36&nbsp;  26&nbsp;  16&nbsp;  06&nbsp;  77&nbsp;  67&nbsp;  57&nbsp;  47  
   
- Rows Total:	369  
- Matrix Sum:	3321  
- Matrix:	  	9 x 9  
- Choir:       Cherubim  
- Angel:       Raziel  
- Power:		    Stealth / Invisibility  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;369  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3321  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9 x 9  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cherubim  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raziel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stealth / Invisibility   
   
   
 Virgo / Earth:  
