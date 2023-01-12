@@ -190,12 +190,12 @@ Virgo / Earth:
  010&nbsp;  012&nbsp;  094&nbsp;  096&nbsp;  078&nbsp;  035&nbsp;  037&nbsp;  044&nbsp;  046&nbsp;  053  
  011&nbsp;  018&nbsp;  100&nbsp;  077&nbsp;  084&nbsp;  036&nbsp;  043&nbsp;  050&nbsp;  027&nbsp;  059  
   
- Rows Total:	505  
- Matrix Sum:	5050  
- Matrix:	  	10 x 10  
- Choir: Powers  
- Angel: Michael  
- Power:	    	Escape / Intangibility  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;505 
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5050  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 x 10  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powers  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Escape / Intangibility    
   
   
 Aquarius / Uranus:  
