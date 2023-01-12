@@ -1,4 +1,4 @@
-# magicSquares
+# Magic Squares
 
 Create a magic squares of any size, and save it to a log file.   
 Complete documentation can be found in the pdf.  
