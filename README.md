@@ -8,40 +8,40 @@ Also, the program will generate a .txt file with the magic square.
 
 Complete documentation can be found in the pdf.
 
-I ported this to windows with modern C++ and corrected the format of
-the matrix. This is some powerful new magic based on ancient sacred 
-astrological mathmatics. 
+I ported this to windows with modern C++ and corrected the format of  
+the matrix. This is some powerful new magic based on ancient sacred   
+astrological mathmatics.  
 
-Wikipedia has a good article that I paraphrased below:
-https://en.wikipedia.org/wiki/Magic_square
+Wikipedia has a good article that I paraphrased below:  
+https://en.wikipedia.org/wiki/Magic_square  
 
-"Magic squares of order 3 through 9, assigned to the seven planets, 
-and described as means to attract the influence of planets and their 
-angels (or demons) during magical practices, can be found in several 
-manuscripts all around Europe starting at least since the 15th 
-century. Among the best known, was the Liber de Angelis, a magical 
-handbook written around 1440. The text of the Liber de Angelis is very 
-close to that of De septem quadraturis planetarum seu quadrati magici, 
-another handbook of planetary image magic contained in the Codex 793 
-of the Biblioteka Jagiellońska. The magical operations involve 
-engraving the appropriate square on a plate made with the metal 
-assigned to the corresponding planet, as well as performing a variety 
-of rituals.
-
-In about 1510 Heinrich Cornelius Agrippa wrote De Occulta Philosophia, 
-drawing on the Hermetic and magical works of Marsilio Ficino and Pico 
-della Mirandola. In its 1531 edition, he expounded on the magical 
-virtues of the seven magical squares of orders 3 to 9, each associated 
-with one of the astrological planets, much in the same way as the older 
-texts did. This book was very influential throughout Europe. Agrippa 
-published his famous three volume book De occulta philosophia in 1531, 
-where he devoted Chapter 22 of Book II to the planetary squares. The 
-tradition of planetary squares was continued into the 17th century by 
-Athanasius Kircher in Oedipi Aegyptici (1653). In Germany, mathematical 
-treaties concerning magic squares were written in 1544 by Michael Stifel 
-in Arithmetica Integra, and Adam Riese, who rediscovered the squares 
-published by Agrippa."
-
+"Magic squares of order 3 through 9, assigned to the seven planets,  
+and described as means to attract the influence of planets and their  
+angels (or demons) during magical practices, can be found in several  
+manuscripts all around Europe starting at least since the 15th  
+century. Among the best known, was the Liber de Angelis, a magical  
+handbook written around 1440. The text of the Liber de Angelis is very  
+close to that of De septem quadraturis planetarum seu quadrati magici,  
+another handbook of planetary image magic contained in the Codex 793  
+of the Biblioteka Jagiellońska. The magical operations involve  
+engraving the appropriate square on a plate made with the metal  
+assigned to the corresponding planet, as well as performing a variety  
+of rituals.  
+  
+In about 1510 Heinrich Cornelius Agrippa wrote De Occulta Philosophia,  
+drawing on the Hermetic and magical works of Marsilio Ficino and Pico  
+della Mirandola. In its 1531 edition, he expounded on the magical  
+virtues of the seven magical squares of orders 3 to 9, each associated  
+with one of the astrological planets, much in the same way as the older  
+texts did. This book was very influential throughout Europe. Agrippa  
+published his famous three volume book De occulta philosophia in 1531,  
+where he devoted Chapter 22 of Book II to the planetary squares. The  
+tradition of planetary squares was continued into the 17th century by  
+Athanasius Kircher in Oedipi Aegyptici (1653). In Germany, mathematical   
+treaties concerning magic squares were written in 1544 by Michael Stifel  
+in Arithmetica Integra, and Adam Riese, who rediscovered the squares  
+published by Agrippa."  
+  
 
 These magic squares can be generated on electric circuitry inside of 
 computers. I have adapted the old works of Agrippa into my modern 
