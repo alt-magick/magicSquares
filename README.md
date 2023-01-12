@@ -147,12 +147,12 @@ Gemini / Mercury:
  16&nbsp;  15&nbsp;  51&nbsp;  52&nbsp;  53&nbsp;  54&nbsp;  10&nbsp;  09  
  08&nbsp;  07&nbsp;  59&nbsp;  60&nbsp;  61&nbsp;  62&nbsp;  02&nbsp;  01  
   
- Rows Total:	260  
- Matrix Sum:	2080  
- Matrix:	  	8 x 8
- Choir:       Thrones  
- Angel:       Raphael  
- Power:		    Wisdom / ESP  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;260  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2080  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 x 8  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thrones  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raphael  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wisdom / Esp    
   
   
 Cancer / Moon:  
