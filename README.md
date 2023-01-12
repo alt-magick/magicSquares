@@ -89,13 +89,13 @@ Aries / Mars:
  25&nbsp;  19&nbsp;  13&nbsp;  07&nbsp;  01  
  18&nbsp;  1&nbsp;2  06&nbsp;  05&nbsp;  24  
  11&nbsp;  10&nbsp;  04&nbsp;  23&nbsp;  17  
-  
- Rows Total:	65  
- Matrix Sum:	325  
- Matrix:		  5 x 5 
- Choir:       Virtues  
- Angel:       Jophiel  
- Power:		    Energy / Telekinesis  
+ 
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;325  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 x 5  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Virtues  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jophiel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Energy / Telekinesis  
   
   
 Leo / Sun:  
