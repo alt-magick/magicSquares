@@ -45,10 +45,7 @@ my system here. The program I wrote allows you to generate any magic
 square, not just the ones below.  Every time you press enter it will  
 generate one of these squares, and you also have the option to switch  
 to other magic squares.  
-  
-You can find the code and all the source here:  
-https://github.com/alt-magick/magicSquares  
-  
+   
   
 This is the basic system:  
   
