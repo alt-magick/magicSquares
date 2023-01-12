@@ -68,10 +68,10 @@ Capricorn / Saturn:
 Sagitarius / Jupiter:  
 =====================  
   
- 16  02  03  13  
- 05  11  10  08  
- 09  07  06  12  
- 04  14  15  01  
+ 16&nbsp;  02&nbsp;  03&nbsp;  13  
+ 05&nbsp;  11&nbsp;  10&nbsp;  08  
+ 09&nbsp;  07&nbsp;  06&nbsp;  12  
+ 04&nbsp;  14&nbsp;  15&nbsp;  01  
   
  Rows Total:	34  
  Matrix Sum:	136  
@@ -84,11 +84,11 @@ Sagitarius / Jupiter:
 Aries / Mars:  
 =============  
   
- 09  03  22  16  15  
- 02  21  20  14  08  
- 25  19  13  07  01  
- 18  12  06  05  24  
- 11  10  04  23  17  
+ 09&nbsp;  03&nbsp;  22&nbsp;  16&nbsp;  15  
+ 02&nbsp;  21&nbsp;  20&nbsp;  14&nbsp;  08  
+ 25&nbsp;  19&nbsp;  13&nbsp;  07&nbsp;  01  
+ 18&nbsp;  1&nbsp;2  06&nbsp;  05&nbsp;  24  
+ 11&nbsp;  10&nbsp;  04&nbsp;  23&nbsp;  17  
   
  Rows Total:	65  
  Matrix Sum:	325  
@@ -101,12 +101,12 @@ Aries / Mars:
 Leo / Sun:  
 ==========  
   
- 35  01  06  26  19  24  
- 03  32  07  21  23  25  
- 31  09  02  22  27  20  
- 08  28  33  17  10  15  
- 30  05  34  12  14  16  
- 04  36  29  13  18  11  
+ 35&nbsp;  01&nbsp;  06&nbsp;  26&nbsp;  19&nbsp;  24  
+ 03&nbsp;  32&nbsp;  07&nbsp;  21&nbsp;  23&nbsp;  25  
+ 31&nbsp;  09&nbsp;  02&nbsp;  22&nbsp;  27&nbsp;  20  
+ 08&nbsp;  28&nbsp;  33&nbsp;  17&nbsp;  10&nbsp;  15  
+ 30&nbsp;  05&nbsp;  34&nbsp;  12&nbsp;  14&nbsp;  16  
+ 04&nbsp;  36&nbsp;  29&nbsp;  13&nbsp;  18&nbsp;  11  
   
  Rows Total:	111  
  Matrix Sum:	666  
@@ -119,13 +119,13 @@ Leo / Sun:
 Taurus / Venus:  
 ===============  
   
- 20  12  04  45  37  29  28  
- 11  03  44  36  35  27  19  
- 02  43  42  34  26  18  10  
- 49  41  33  25  17  09  01  
- 40  32  24  16  08  07  48  
- 31  23  15  14  06  47  39  
- 22  21  13  05  46  38  30  
+ 20&nbsp;  12&nbsp;  04&nbsp;  45&nbsp;  37&nbsp;  29&nbsp;  28  
+ 11&nbsp;  03&nbsp;  44&nbsp;  36&nbsp;  35&nbsp;  27&nbsp;  19  
+ 02&nbsp;  43&nbsp;  42&nbsp;  34&nbsp;  26&nbsp;  18&nbsp;  10  
+ 49&nbsp;  41&nbsp;  33&nbsp;  25&nbsp;  17&nbsp;  09&nbsp;  01  
+ 40&nbsp;  32&nbsp;  24&nbsp;  16&nbsp;  08&nbsp;  07&nbsp;  48  
+ 31&nbsp;  23&nbsp;  15&nbsp;  14&nbsp;  06&nbsp;  47&nbsp;  39  
+ 22&nbsp;  21&nbsp;  13&nbsp;  05&nbsp;  46&nbsp;  38&nbsp;  30  
   
  Rows Total:	175  
  Matrix Sum:	1225  
@@ -138,14 +138,14 @@ Taurus / Venus:
 Gemini / Mercury:  
 =================  
   
- 64  63  03  04  05  06  58  57  
- 56  55  11  12  13  14  50  49  
- 17  18  46  45  44  43  23  24  
- 25  26  38  37  36  35  31  32  
- 33  34  30  29  28  27  39  40  
- 41  42  22  21  20  19  47  48  
- 16  15  51  52  53  54  10  09  
- 08  07  59  60  61  62  02  01  
+ 64&nbsp;  63&nbsp;  03&nbsp;  04&nbsp;  05&nbsp;  06&nbsp;  58&nbsp;  57  
+ 56&nbsp;  55&nbsp;  11&nbsp;  12&nbsp;  13&nbsp;  14&nbsp;  50&nbsp;  49  
+ 17&nbsp;  18&nbsp;  46&nbsp;  45&nbsp;  44&nbsp;  43&nbsp;  23&nbsp;  24  
+ 25&nbsp;  26&nbsp;  38&nbsp;  37&nbsp;  36&nbsp;  35&nbsp;  31&nbsp;  32  
+ 33&nbsp;  34&nbsp;  30&nbsp;  29&nbsp;  28&nbsp;  27&nbsp;  39&nbsp;  40  
+ 41&nbsp;  42&nbsp;  22&nbsp;  21&nbsp;  20&nbsp;  19&nbsp;  47&nbsp;  48  
+ 16&nbsp;  15&nbsp;  51&nbsp;  52&nbsp;  53&nbsp;  54&nbsp;  10&nbsp;  09  
+ 08&nbsp;  07&nbsp;  59&nbsp;  60&nbsp;  61&nbsp;  62&nbsp;  02&nbsp;  01  
   
  Rows Total:	260  
  Matrix Sum:	2080  
@@ -158,15 +158,15 @@ Gemini / Mercury:
 Cancer / Moon:  
 ==============  
   
- 35  25  15  05  76  66  56  46  45  
- 24  14  04  75  65  55  54  44  34  
- 13  03  74  64  63  53  43  33  23  
- 02  73  72  62  52  42  32  22  12  
- 81  71  61  51  41  31  21  11  01  
- 70  60  50  40  30  20  10  09  80  
- 59  49  39  29  19  18  08  79  69  
- 48  38  28  27  17  07  78  68  58  
- 37  36  26  16  06  77  67  57  47  
+ 35&nbsp;  25&nbsp;  15&nbsp;  05&nbsp;  76&nbsp;  66&nbsp;  56&nbsp;  46&nbsp;  45  
+ 24&nbsp;  14&nbsp;  04&nbsp;  75&nbsp;  65&nbsp;  55&nbsp;  54&nbsp;  44&nbsp;  34  
+ 13&nbsp;  03&nbsp;  74&nbsp;  64&nbsp;  63&nbsp;  53&nbsp;  43&nbsp;  33&nbsp;  23  
+ 02&nbsp;  73&nbsp;  72&nbsp;  62&nbsp;  52&nbsp;  42&nbsp;  32&nbsp;  22&nbsp;  12  
+ 81&nbsp;  71&nbsp;  61&nbsp;  51&nbsp;  41&nbsp;  31&nbsp;  21&nbsp;  11&nbsp;  01  
+ 70&nbsp;  60&nbsp;  50&nbsp;  40&nbsp;  30&nbsp;  20&nbsp;  10&nbsp;  09&nbsp;  80  
+ 59&nbsp;  49&nbsp;  39&nbsp;  29&nbsp;  19&nbsp;  18&nbsp;  08&nbsp;  79&nbsp;  69  
+ 48&nbsp;  38&nbsp;  28&nbsp;  27&nbsp;  17&nbsp;  07&nbsp;  78&nbsp;  68&nbsp;  58  
+ 37&nbsp;  36&nbsp;  26&nbsp;  16&nbsp;  06&nbsp;  77&nbsp;  67&nbsp;  57&nbsp;  47  
   
  Rows Total:	369  
  Matrix Sum:	3321  
@@ -179,16 +179,16 @@ Cancer / Moon:
 Virgo / Earth:  
 ==============  
   
- 092  099  001  008  015  067  074  051  058  040  
- 098  080  007  014  016  073  055  057  064  041  
- 004  081  088  020  022  054  056  063  070  047  
- 085  087  019  021  003  060  062  069  071  028  
- 086  093  025  002  009  061  068  075  052  034  
- 017  024  076  083  090  042  049  026  033  065  
- 023  005  082  089  091  048  030  032  039  066  
- 079  006  013  095  097  029  031  038  045  072  
- 010  012  094  096  078  035  037  044  046  053  
- 011  018  100  077  084  036  043  050  027  059  
+ 092&nbsp;  099&nbsp;  001&nbsp;  008&nbsp;  015&nbsp;  067&nbsp;  074&nbsp;  051&nbsp;  058&nbsp;  040  
+ 098&nbsp;  080&nbsp;  007&nbsp;  014&nbsp;  016&nbsp;  073&nbsp;  055&nbsp;  057&nbsp;  064&nbsp;  041  
+ 004&nbsp;  081&nbsp;  088&nbsp;  020&nbsp;  022&nbsp;  054&nbsp;  056&nbsp;  063&nbsp;  070&nbsp;  047  
+ 085&nbsp;  087&nbsp;  019&nbsp;  021&nbsp;  003&nbsp;  060&nbsp;  062&nbsp;  069&nbsp;  071&nbsp;  028  
+ 086&nbsp;  093&nbsp;  025&nbsp;  002&nbsp;  009&nbsp;  061&nbsp;  068&nbsp;  075&nbsp;  052&nbsp;  034  
+ 017&nbsp;  024&nbsp;  076&nbsp;  083&nbsp;  090&nbsp;  042&nbsp;  049&nbsp;  026&nbsp;  033&nbsp;  065  
+ 023&nbsp;  005&nbsp;  082&nbsp;  089&nbsp;  091&nbsp;  048&nbsp;  030&nbsp;  032&nbsp;  039&nbsp;  066  
+ 079&nbsp;  006&nbsp;  013&nbsp;  095&nbsp;  097&nbsp;  029&nbsp;  031&nbsp;  038&nbsp;  045&nbsp;  072  
+ 010&nbsp;  012&nbsp;  094&nbsp;  096&nbsp;  078&nbsp;  035&nbsp;  037&nbsp;  044&nbsp;  046&nbsp;  053  
+ 011&nbsp;  018&nbsp;  100&nbsp;  077&nbsp;  084&nbsp;  036&nbsp;  043&nbsp;  050&nbsp;  027&nbsp;  059  
   
  Rows Total:	505  
  Matrix Sum:	5050  
@@ -201,17 +201,17 @@ Virgo / Earth:
 Aquarius / Uranus:  
 ==================  
   
- 054  042  030  018  006  115  103  091  079  067  066  
- 041  029  017  005  114  102  090  078  077  065  053  
- 028  016  004  113  101  089  088  076  064  052  040  
- 015  003  112  100  099  087  075  063  051  039  027  
- 002  111  110  098  086  074  062  050  038  026  014  
- 121  109  097  085  073  061  049  037  025  013  001  
- 108  096  084  072  060  048  036  024  012  011  120  
- 095  083  071  059  047  035  023  022  010  119  107  
- 082  070  058  046  034  033  021  009  118  106  094  
- 069  057  045  044  032  020  008  117  105  093  081  
- 056  055  043  031  019  007  116  104  092  080  068  
+ 054&nbsp;  042&nbsp;  030&nbsp;  018&nbsp;  006&nbsp;  115&nbsp;  103&nbsp;  091&nbsp;  079&nbsp;  067&nbsp;  066  
+ 041&nbsp;  029&nbsp;  017&nbsp;  005&nbsp;  114&nbsp;  102&nbsp;  090&nbsp;  078&nbsp;  077&nbsp;  065&nbsp;  053  
+ 028&nbsp;  016&nbsp;  004&nbsp;  113&nbsp;  101&nbsp;  089&nbsp;  088&nbsp;  076&nbsp;  064&nbsp;  052&nbsp;  040  
+ 015&nbsp;  003&nbsp;  112&nbsp;  100&nbsp;  099&nbsp;  087&nbsp;  075&nbsp;  063&nbsp;  051&nbsp;  039&nbsp;  027  
+ 002&nbsp;  111&nbsp;  110&nbsp;  098&nbsp;  086&nbsp;  074&nbsp;  062&nbsp;  050&nbsp;  038&nbsp;  026&nbsp;  014  
+ 121&nbsp;  109&nbsp;  097&nbsp;  085&nbsp;  073&nbsp;  061&nbsp;  049&nbsp;  037&nbsp;  025&nbsp;  013&nbsp;  001  
+ 108&nbsp;  096&nbsp;  084&nbsp;  072&nbsp;  060&nbsp;  048&nbsp;  036&nbsp;  024&nbsp;  012&nbsp;  011&nbsp;  120  
+ 095&nbsp;  083&nbsp;  071&nbsp;  059&nbsp;  047&nbsp;  035&nbsp;  023&nbsp;  022&nbsp;  010&nbsp;  119&nbsp;  107  
+ 082&nbsp;  070&nbsp;  058&nbsp;  046&nbsp;  034&nbsp;  033&nbsp;  021&nbsp;  009&nbsp;  118&nbsp;  106&nbsp;  094  
+ 069&nbsp;  057&nbsp;  045&nbsp;  044&nbsp;  032&nbsp;  020&nbsp;  008&nbsp;  117&nbsp;  105&nbsp;  093&nbsp;  081  
+ 056&nbsp;  055&nbsp;  043&nbsp;  031&nbsp;  019&nbsp;  007&nbsp;  116&nbsp;  104&nbsp;  092&nbsp;  080&nbsp;  068  
   
  Rows Total:	671  
  Matrix Sum:	7381  
@@ -224,18 +224,18 @@ Aquarius / Uranus:
 Pisces / Neptune:  
 =================  
   
- 144  143  142  004  005  006  007  008  009  135  134  133  
- 132  131  130  016  017  018  019  020  021  123  122  121  
- 120  119  118  028  029  030  031  032  033  111  110  109  
- 037  038  039  105  104  103  102  101  100  046  047  048  
- 049  050  051  093  092  091  090  089  088  058  059  060  
- 061  062  063  081  080  079  078  077  076  070  071  072  
- 073  074  075  069  068  067  066  065  064  082  083  084  
- 085  086  087  057  056  055  054  053  052  094  095  096  
- 097  098  099  045  044  043  042  041  040  106  107  108  
- 036  035  034  112  113  114  115  116  117  027  026  025  
- 024  023  022  124  125  126  127  128  129  015  014  013  
- 012  011  010  136  137  138  139  140  141  003  002  001  
+ 144&nbsp;  143&nbsp;  142&nbsp;  004&nbsp;  005&nbsp;  006&nbsp;  007&nbsp;  008&nbsp;  009&nbsp;  135&nbsp;  134&nbsp;  133  
+ 132&nbsp;  131&nbsp;  130&nbsp;  016&nbsp;  017&nbsp;  018&nbsp;  019&nbsp;  020&nbsp;  021&nbsp;  123&nbsp;  122&nbsp;  121  
+ 120&nbsp;  119&nbsp;  118&nbsp;  028&nbsp;  029&nbsp;  030&nbsp;  031&nbsp;  032&nbsp;  033&nbsp;  111&nbsp;  110&nbsp;  109  
+ 037&nbsp;  038&nbsp;  039&nbsp;  105&nbsp;  104&nbsp;  103&nbsp;  102&nbsp;  101&nbsp;  100&nbsp;  046&nbsp;  047&nbsp;  048  
+ 049&nbsp;  050&nbsp;  051&nbsp;  093&nbsp;  092&nbsp;  091&nbsp;  090&nbsp;  089&nbsp;  088&nbsp;  058&nbsp;  059&nbsp;  060  
+ 061&nbsp;  062&nbsp;  063&nbsp;  081&nbsp;  080&nbsp;  079&nbsp;  078&nbsp;  077&nbsp;  076&nbsp;  070&nbsp;  071&nbsp;  072  
+ 073&nbsp;  074&nbsp;  075&nbsp;  069&nbsp;  068&nbsp;  067&nbsp;  066&nbsp;  065&nbsp;  064&nbsp;  082&nbsp;  083&nbsp;  084  
+ 085&nbsp;  086&nbsp;  087&nbsp;  057&nbsp;  056&nbsp;  055&nbsp;  054&nbsp;  053&nbsp;  052&nbsp;  094&nbsp;  095&nbsp;  096  
+ 097&nbsp;  098&nbsp;  099&nbsp;  045&nbsp;  044&nbsp;  043&nbsp;  042&nbsp;  041&nbsp;  040&nbsp;  106&nbsp;  107&nbsp;  108  
+ 036&nbsp;  035&nbsp;  034&nbsp;  112&nbsp;  113&nbsp;  114&nbsp;  115&nbsp;  116&nbsp;  117&nbsp;  027&nbsp;  026&nbsp;  025  
+ 024&nbsp;  023&nbsp;  022&nbsp;  124&nbsp;  125&nbsp;  126&nbsp;  127&nbsp;  128&nbsp;  129&nbsp;  015&nbsp;  014&nbsp;  013  
+ 012&nbsp;  011&nbsp;  010&nbsp;  136&nbsp;  137&nbsp;  138&nbsp;  139&nbsp;  140&nbsp;  141&nbsp;  003&nbsp;  002&nbsp;  001  
   
  Rows Total:	870  
  Matrix Sum:	10440  
@@ -248,19 +248,19 @@ Pisces / Neptune:
 Scorpio / Pluto:  
 ================  
   
- 077  063  049  035  021  007  162  148  134  120  106  092  091  
- 062  048  034  020  006  161  147  133  119  105  104  090  076  
- 047  033  019  005  160  146  132  118  117  103  089  075  061  
- 032  018  004  159  145  131  130  116  102  088  074  060  046  
- 017  003  158  144  143  129  115  101  087  073  059  045  031  
- 002  157  156  142  128  114  100  086  072  058  044  030  016  
- 169  155  141  127  113  099  085  071  057  043  029  015  001  
- 154  140  126  112  098  084  070  056  042  028  014  013  168  
- 139  125  111  097  083  069  055  041  027  026  012  167  153  
- 124  110  096  082  068  054  040  039  025  011  166  152  138  
- 109  095  081  067  053  052  038  024  010  165  151  137  123  
- 094  080  066  065  051  037  023  009  164  150  136  122  108  
- 079  078  064  050  036  022  008  163  149  135  121  107  093  
+ 077&nbsp;  063&nbsp;  049&nbsp;  035&nbsp;  021&nbsp;  007&nbsp;  162&nbsp;  148&nbsp;  134&nbsp;  120&nbsp;  106&nbsp;  092&nbsp;  091  
+ 062&nbsp;  048&nbsp;  034&nbsp;  020&nbsp;  006&nbsp;  161&nbsp;  147&nbsp;  133&nbsp;  119&nbsp;  105&nbsp;  104&nbsp;  090&nbsp;  076  
+ 047&nbsp;  033&nbsp;  019&nbsp;  005&nbsp;  160&nbsp;  146&nbsp;  132&nbsp;  118&nbsp;  117&nbsp;  103&nbsp;  089&nbsp;  075&nbsp;  061  
+ 032&nbsp;  018&nbsp;  004&nbsp;  159&nbsp;  145&nbsp;  131&nbsp;  130&nbsp;  116&nbsp;  102&nbsp;  088&nbsp;  074&nbsp;  060&nbsp;  046  
+ 017&nbsp;  003&nbsp;  158&nbsp;  144&nbsp;  143&nbsp;  129&nbsp;  115&nbsp;  101&nbsp;  087&nbsp;  073&nbsp;  059&nbsp;  045&nbsp;  031  
+ 002&nbsp;  157&nbsp;  156&nbsp;  142&nbsp;  128&nbsp;  114&nbsp;  100&nbsp;  086&nbsp;  072&nbsp;  058&nbsp;  044&nbsp;  030&nbsp;  016  
+ 169&nbsp;  155&nbsp;  141&nbsp;  127&nbsp;  113&nbsp;  099&nbsp;  085&nbsp;  071&nbsp;  057&nbsp;  043&nbsp;  029&nbsp;  015&nbsp;  001  
+ 154&nbsp;  140&nbsp;  126&nbsp;  112&nbsp;  098&nbsp;  084&nbsp;  070&nbsp;  056&nbsp;  042&nbsp;  028&nbsp;  014&nbsp;  013&nbsp;  168  
+ 139&nbsp;  125&nbsp;  111&nbsp;  097&nbsp;  083&nbsp;  069&nbsp;  055&nbsp;  041&nbsp;  027&nbsp;  026&nbsp;  012&nbsp;  167&nbsp;  153  
+ 124&nbsp;  110&nbsp;  096&nbsp;  082&nbsp;  068&nbsp;  054&nbsp;  040&nbsp;  039&nbsp;  025&nbsp;  011&nbsp;  166&nbsp;  152&nbsp;  138  
+ 109&nbsp;  095&nbsp;  081&nbsp;  067&nbsp;  053&nbsp;  052&nbsp;  038&nbsp;  024&nbsp;  010&nbsp;  165&nbsp;  151&nbsp;  137&nbsp;  123  
+ 094&nbsp;  080&nbsp;  066&nbsp;  065&nbsp;  051&nbsp;  037&nbsp;  023&nbsp;  009&nbsp;  164&nbsp;  150&nbsp;  136&nbsp;  122&nbsp;  108  
+ 079&nbsp;  078&nbsp;  064&nbsp;  050&nbsp;  036&nbsp;  022&nbsp;  008&nbsp;  163&nbsp;  149&nbsp;  135&nbsp;  121&nbsp;  107&nbsp;  093  
   
  Rows Total:	1105  
  Matrix Sum:	14365  
@@ -273,25 +273,26 @@ Scorpio / Pluto:
 Libra / Milky Way:  
 ==================  
   
- 177  186  195  001  010  019  028  128  137  146  099  108  068  077  
- 185  194  154  009  018  027  029  136  145  105  107  116  076  078  
- 193  153  155  017  026  035  037  144  104  106  115  124  084  086  
- 005  161  163  172  034  036  045  103  112  114  123  132  085  094  
- 160  162  171  033  042  044  004  111  113  122  131  140  093  053  
- 168  170  179  041  043  003  012  119  121  130  139  141  052  061  
- 169  178  187  049  002  011  020  120  129  138  147  100  060  069  
- 030  039  048  148  157  166  175  079  088  097  050  059  117  126  
- 038  047  007  156  165  174  176  087  096  056  058  067  125  127  
- 046  006  008  164  173  182  184  095  055  057  066  075  133  135  
- 152  014  016  025  181  183  192  054  063  065  074  083  134  143  
- 013  015  024  180  189  191  151  062  064  073  082  091  142  102  
- 021  023  032  188  190  150  159  070  072  081  090  092  101  110  
- 022  031  040  196  149  158  167  071  080  089  098  051  109  118  
+ 177&nbsp;  186&nbsp;  195&nbsp;  001&nbsp;  010&nbsp;  019&nbsp;  028&nbsp;  128&nbsp;  137&nbsp;  146&nbsp;  099&nbsp;  108&nbsp;  068&nbsp;  077  
+ 185&nbsp;  194&nbsp;  154&nbsp;  009&nbsp;  018&nbsp;  027&nbsp;  029&nbsp;  136&nbsp;  145&nbsp;  105&nbsp;  107&nbsp;  116&nbsp;  076&nbsp;  078  
+ 193&nbsp;  153&nbsp;  155&nbsp;  017&nbsp;  026&nbsp;  035&nbsp;  037&nbsp;  144&nbsp;  104&nbsp;  106&nbsp;  115&nbsp;  124&nbsp;  084&nbsp;  086  
+ 005&nbsp;  161&nbsp;  163&nbsp;  172&nbsp;  034&nbsp;  036&nbsp;  045&nbsp;  103&nbsp;  112&nbsp;  114&nbsp;  123&nbsp;  132&nbsp;  085&nbsp;  094  
+ 160&nbsp;  162&nbsp;  171&nbsp;  033&nbsp;  042&nbsp;  044&nbsp;  004&nbsp;  111&nbsp;  113&nbsp;  122&nbsp;  131&nbsp;  140&nbsp;  093&nbsp;  053  
+ 168&nbsp;  170&nbsp;  179&nbsp;  041&nbsp;  043&nbsp;  003&nbsp;  012&nbsp;  119&nbsp;  121&nbsp;  130&nbsp;  139&nbsp;  141&nbsp;  052&nbsp;  061  
+ 169&nbsp;  178&nbsp;  187&nbsp;  049&nbsp;  002&nbsp;  011&nbsp;  020&nbsp;  120&nbsp;  129&nbsp;  138&nbsp;  147&nbsp;  100&nbsp;  060&nbsp;  069  
+ 030&nbsp;  039&nbsp;  048&nbsp;  148&nbsp;  157&nbsp;  166&nbsp;  175&nbsp;  079&nbsp;  088&nbsp;  097&nbsp;  050&nbsp;  059&nbsp;  117&nbsp;  126  
+ 038&nbsp;  047&nbsp;  007&nbsp;  156&nbsp;  165&nbsp;  174&nbsp;  176&nbsp;  087&nbsp;  096&nbsp;  056&nbsp;  058&nbsp;  067&nbsp;  125&nbsp;  127  
+ 046&nbsp;  006&nbsp;  008&nbsp;  164&nbsp;  173&nbsp;  182&nbsp;  184&nbsp;  095&nbsp;  055&nbsp;  057&nbsp;  066&nbsp;  075&nbsp;  133&nbsp;  135  
+ 152&nbsp;  014&nbsp;  016&nbsp;  025&nbsp;  181&nbsp;  183&nbsp;  192&nbsp;  054&nbsp;  063&nbsp;  065&nbsp;  074&nbsp;  083&nbsp;  134&nbsp;  143  
+ 013&nbsp;  015&nbsp;  024&nbsp;  180&nbsp;  189&nbsp;  191&nbsp;  151&nbsp;  062&nbsp;  064&nbsp;  073&nbsp;  082&nbsp;  091&nbsp;  142&nbsp;  102  
+ 021&nbsp;  023&nbsp;  032&nbsp;  188&nbsp;  190&nbsp;  150&nbsp;  159&nbsp;  070&nbsp;  072&nbsp;  081&nbsp;  090&nbsp;  092&nbsp;  101&nbsp;  110  
+ 022&nbsp;  031&nbsp;  040&nbsp;  196&nbsp;  149&nbsp;  158&nbsp;  167&nbsp;  071&nbsp;  080&nbsp;  089&nbsp;  098&nbsp;  051&nbsp;  109&nbsp;  118  
   
- Rows Total:	1379  
- Matrix Sum:	19306  
- Matrix:		  14 x 14  
- Choir:       God  
- Angel:       Elohim  
- Power:		    Visions / Rapture  
-  
+ Ro&nbsp;w&nbs&nbsp;p;s T&nbsp;ot&nb&nbsp;sp;al&nbsp;:	1&n&nbsp;bsp;3&nbsp;79  &nbsp;
+ Mat&nbsp;&nbsp&nbsp;;rix &nbsp;S&nbs&nbsp;p;um:&nbsp;	1&nb&nbsp;sp;93&nbsp;06 &n&nbsp;bsp; &nbsp;
+ Mat&nbsp;rix:	&nbsp;	  14&nbsp; x 14&nbsp;  
+ Cho&nbsp;&nbsp&nbsp;;ir: &nbsp; &nbs&nbsp;p;   &nbsp;  &nb&nbsp;sp;Go&nbsp;d  &n&nbsp;bsp;
+&nbsp; Ang&&nbsp;nbsp;&nbsp;el:  &nbsp;&nbsp&nbsp;;     &nbsp;Elohi&nbsp;m  
+ &nb&nbsp;sp;Po&nbsp;wer&n&nbsp;bsp;:&nbsp;		  &&nbsp;nbsp;&nbsp;  Vis&nbsp;&nbsp&nbsp;;ions&nbsp; &nbs&nbsp;p;/ R&nbsp;aptur&nbsp;e  
+ &nbsp; 
+&nb&nbsp;&nbsp&nbsp;;sp;&n&nbsp;bsp;&&nbsp;nbsp;&nbsp;&nbsp&nbsp;;&nbs&nbsp;p;&nb&nbsp;sp;&n&nbsp;bsp;&&nbsp;nbsp;&nbsp;&nbsp&nbsp;;&nbs&nbsp;p;&nb&nbsp;sp;&nbsp;&nbsp;
