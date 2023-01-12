@@ -53,16 +53,16 @@ This is the basic system:
 Capricorn / Saturn:  
 ===================  
  
- 2  7  6  
- 9  5  1  
- 4  3  8  
+ 2:  7:  6  
+ 9:  5:  1  
+ 4:  3:  8  
   
- Rows Total:	15  
- Matrix Sum:	45  
- Matrix:	  	3 x 3  
- Choir:       Archangels  
- Angel:       Gabriel  
- Power:		    Developing / Shapeshifting  
+ Rows Total:::	15  
+ Matrix Sum:::	45  
+ Matrix:::	  	3 x 3  
+ Choir:::       Archangels  
+ Angel:::       Gabriel  
+ Power:::		    Developing / Shapeshifting  
   
    
 Sagitarius / Jupiter:  
