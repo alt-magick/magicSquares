@@ -60,6 +60,8 @@ Capricorn / Saturn:
  Rows Total:	15  
  Matrix Sum:	45  
  Matrix:	  	3 x 3  
+ Choir:       Archangels  
+ Angel:       Gabriel  
  Power:		    Developing / Shapeshifting  
   
    
@@ -74,6 +76,8 @@ Sagitarius / Jupiter:
  Rows Total:	34  
  Matrix Sum:	136  
  Matrix:	  	4 x 4  
+ Choir:       Principalities  
+ Angel:       Zadkiel  
  Power:	    	Direction / Teleportation  
   
   
@@ -88,7 +92,9 @@ Aries / Mars:
   
  Rows Total:	65  
  Matrix Sum:	325  
- Matrix:		  5 x 5  
+ Matrix:		  5 x 5 
+ Choir:       Virtues  
+ Angel:       Jophiel  
  Power:		    Energy / Telekinesis  
   
   
@@ -105,6 +111,8 @@ Leo / Sun:
  Rows Total:	111  
  Matrix Sum:	666  
  Matrix:	  	6 x 6  
+ Choir:       Seraphim  
+ Angel:       Uriel  
  Power:	    	Attraction / Creation  
   
   
@@ -121,7 +129,9 @@ Taurus / Venus:
   
  Rows Total:	175  
  Matrix Sum:	1225  
- Matrix:	  	7 x 7  
+ Matrix:	  	7 x 7
+ Choir:       Dominions
+ Angel:       Ariel
  Power:	    	Charisma / Hypnotism  
   
   
@@ -139,7 +149,9 @@ Gemini / Mercury:
   
  Rows Total:	260  
  Matrix Sum:	2080  
- Matrix:	  	8 x 8  
+ Matrix:	  	8 x 8
+ Choir:       Thrones  
+ Angel:       Raphael  
  Power:		    Wisdom / ESP  
   
   
@@ -159,6 +171,8 @@ Cancer / Moon:
  Rows Total:	369  
  Matrix Sum:	3321  
  Matrix:	  	9 x 9  
+ Choir:       Cherubim  
+ Angel:       Raziel  
  Power:		    Stealth / Invisibility  
   
   
@@ -179,6 +193,8 @@ Virgo / Earth:
  Rows Total:	505  
  Matrix Sum:	5050  
  Matrix:	  	10 x 10  
+ Choir: Powers  
+ Angel: Michael  
  Power:	    	Escape / Intangibility  
   
   
@@ -200,6 +216,8 @@ Aquarius / Uranus:
  Rows Total:	671  
  Matrix Sum:	7381  
  Matrix:		  11 x 11  
+ Choir:       Angels  
+ Angel:       Barachiel  
  Power:		    Renewal / Healing  
   
   
@@ -222,6 +240,8 @@ Pisces / Neptune:
  Rows Total:	870  
  Matrix Sum:	10440  
  Matrix:		  12 x 12  
+ Choir:       Saints  
+ Angel:       Jeremiel  
  Power:		    Empathy / Telepathy  
   
   
@@ -245,6 +265,8 @@ Scorpio / Pluto:
  Rows Total:	1105  
  Matrix Sum:	14365  
  Matrix:		  13 x 13  
+ Choir:       Mankind  
+ Angel:       Selephiel  
  Power:		    Curse / Destroy  
   
   
@@ -269,5 +291,7 @@ Libra / Milky Way:
  Rows Total:	1379  
  Matrix Sum:	19306  
  Matrix:		  14 x 14  
+ Choir:       God  
+ Angel:       Elohim  
  Power:		    Visions / Rapture  
   
