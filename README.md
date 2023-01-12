@@ -262,12 +262,12 @@ Scorpio / Pluto:
  094&nbsp;  080&nbsp;  066&nbsp;  065&nbsp;  051&nbsp;  037&nbsp;  023&nbsp;  009&nbsp;  164&nbsp;  150&nbsp;  136&nbsp;  122&nbsp;  108  
  079&nbsp;  078&nbsp;  064&nbsp;  050&nbsp;  036&nbsp;  022&nbsp;  008&nbsp;  163&nbsp;  149&nbsp;  135&nbsp;  121&nbsp;  107&nbsp;  093  
   
- Rows Total:	1105  
- Matrix Sum:	14365  
- Matrix:		  13 x 13  
- Choir:       Mankind  
- Angel:       Selephiel  
- Power:		    Curse / Destroy  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1105  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14365  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13 x 13  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mankind  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selephiel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Curse / Destroy    
   
   
 Libra / Milky Way:  
