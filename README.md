@@ -108,12 +108,12 @@ Leo / Sun:
  30&nbsp;  05&nbsp;  34&nbsp;  12&nbsp;  14&nbsp;  16  
  04&nbsp;  36&nbsp;  29&nbsp;  13&nbsp;  18&nbsp;  11  
   
- Rows Total:	111  
- Matrix Sum:	666  
- Matrix:	  	6 x 6  
- Choir:       Seraphim  
- Angel:       Uriel  
- Power:	    	Attraction / Creation  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;111  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;666  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 x 6  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seraphim  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uriel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attraction / Creation    
   
   
 Taurus / Venus:  
