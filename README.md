@@ -288,11 +288,9 @@ Libra / Milky Way:
  021&nbsp;  023&nbsp;  032&nbsp;  188&nbsp;  190&nbsp;  150&nbsp;  159&nbsp;  070&nbsp;  072&nbsp;  081&nbsp;  090&nbsp;  092&nbsp;  101&nbsp;  110  
  022&nbsp;  031&nbsp;  040&nbsp;  196&nbsp;  149&nbsp;  158&nbsp;  167&nbsp;  071&nbsp;  080&nbsp;  089&nbsp;  098&nbsp;  051&nbsp;  109&nbsp;  118  
   
- Ro&nbsp;w&nbs&nbsp;p;s T&nbsp;ot&nb&nbsp;sp;al&nbsp;:	1&n&nbsp;bsp;3&nbsp;79  &nbsp;
- Mat&nbsp;&nbsp&nbsp;;rix &nbsp;S&nbs&nbsp;p;um:&nbsp;	1&nb&nbsp;sp;93&nbsp;06 &n&nbsp;bsp; &nbsp;
- Mat&nbsp;rix:	&nbsp;	  14&nbsp; x 14&nbsp;  
- Cho&nbsp;&nbsp&nbsp;;ir: &nbsp; &nbs&nbsp;p;   &nbsp;  &nb&nbsp;sp;Go&nbsp;d  &n&nbsp;bsp;
-&nbsp; Ang&&nbsp;nbsp;&nbsp;el:  &nbsp;&nbsp&nbsp;;     &nbsp;Elohi&nbsp;m  
- &nb&nbsp;sp;Po&nbsp;wer&n&nbsp;bsp;:&nbsp;		  &&nbsp;nbsp;&nbsp;  Vis&nbsp;&nbsp&nbsp;;ions&nbsp; &nbs&nbsp;p;/ R&nbsp;aptur&nbsp;e  
- &nbsp; 
-&nb&nbsp;&nbsp&nbsp;;sp;&n&nbsp;bsp;&&nbsp;nbsp;&nbsp;&nbsp&nbsp;;&nbs&nbsp;p;&nb&nbsp;sp;&n&nbsp;bsp;&&nbsp;nbsp;&nbsp;&nbsp&nbsp;;&nbs&nbsp;p;&nb&nbsp;sp;&nbsp;&nbsp;
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1379  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19306  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14 x 14  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;God  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Elohim  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visions / Rapture  
