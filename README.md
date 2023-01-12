@@ -126,14 +126,14 @@ Taurus / Venus:
  40&nbsp;  32&nbsp;  24&nbsp;  16&nbsp;  08&nbsp;  07&nbsp;  48  
  31&nbsp;  23&nbsp;  15&nbsp;  14&nbsp;  06&nbsp;  47&nbsp;  39  
  22&nbsp;  21&nbsp;  13&nbsp;  05&nbsp;  46&nbsp;  38&nbsp;  30  
-  
- Rows Total:	175  
- Matrix Sum:	1225  
- Matrix:	  	7 x 7
- Choir:       Dominions
- Angel:       Ariel
- Power:	    	Charisma / Hypnotism  
-  
+ 
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;175  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1225  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 x 7  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dominions  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ariel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charisma / Hypnotism  
+ 
   
 Gemini / Mercury:  
 =================  
