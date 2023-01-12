@@ -1,8 +1,8 @@
 # magicSquares
 
-Create a magic squares of any size, and save it to a log file. 
-Complete documentation can be found in the pdf.
-
+Create a magic squares of any size, and save it to a log file.   
+Complete documentation can be found in the pdf.  
+  
 I ported this to windows with modern C++ and corrected the format of  
 the matrix. This is some powerful new magic based on ancient sacred   
 astrological mathmatics.  
