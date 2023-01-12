@@ -213,12 +213,12 @@ Aquarius / Uranus:
  069&nbsp;  057&nbsp;  045&nbsp;  044&nbsp;  032&nbsp;  020&nbsp;  008&nbsp;  117&nbsp;  105&nbsp;  093&nbsp;  081  
  056&nbsp;  055&nbsp;  043&nbsp;  031&nbsp;  019&nbsp;  007&nbsp;  116&nbsp;  104&nbsp;  092&nbsp;  080&nbsp;  068  
   
- Rows Total:	671  
- Matrix Sum:	7381  
- Matrix:		  11 x 11  
- Choir:       Angels  
- Angel:       Barachiel  
- Power:		    Renewal / Healing  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;671 
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7381  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11 x 11  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angels  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barachiel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Renewal / Healing   
   
   
 Pisces / Neptune:  
