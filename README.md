@@ -237,12 +237,12 @@ Pisces / Neptune:
  024&nbsp;  023&nbsp;  022&nbsp;  124&nbsp;  125&nbsp;  126&nbsp;  127&nbsp;  128&nbsp;  129&nbsp;  015&nbsp;  014&nbsp;  013  
  012&nbsp;  011&nbsp;  010&nbsp;  136&nbsp;  137&nbsp;  138&nbsp;  139&nbsp;  140&nbsp;  141&nbsp;  003&nbsp;  002&nbsp;  001  
   
- Rows Total:	870  
- Matrix Sum:	10440  
- Matrix:		  12 x 12  
- Choir:       Saints  
- Angel:       Jeremiel  
- Power:		    Empathy / Telepathy  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;870  
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10440    
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12 x 12  
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saints  
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeremiel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Empathy / Telepathy    
   
   
 Scorpio / Pluto:  
