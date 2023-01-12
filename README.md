@@ -73,12 +73,12 @@ Sagitarius / Jupiter:
  09&nbsp;  07&nbsp;  06&nbsp;  12  
  04&nbsp;  14&nbsp;  15&nbsp;  01  
   
- Rows Total:	34  
- Matrix Sum:	136  
- Matrix:	  	4 x 4  
- Choir:       Principalities  
- Angel:       Zadkiel  
- Power:	    	Direction / Teleportation  
+ Rows Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;34
+ Matrix Sum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;136  
+ Matrix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 x 4
+ Choir:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principalities 
+ Angel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zadkiel  
+ Power:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Direction / Teleportation   
   
   
 Aries / Mars:  
