@@ -53,9 +53,9 @@ This is the basic system:
 Capricorn / Saturn:  
 ===================  
   
- 2  7  6  
- 9  5  1  
- 4  3  8  
+ 2 | 7 | 6  
+ 9 | 5 | 1  
+ 4 | 3 | 8  
   
  Rows Total:	15  
  Matrix Sum:	45  
