@@ -1,11 +1,6 @@
 # magicSquares
 
-Creates a magic square with each side being the size you set.
-
-The output is a Magic Square of size n.
-
-Also, the program will generate a .txt file with the magic square.
-
+Create a magic squares of any size, and save it to a log file. 
 Complete documentation can be found in the pdf.
 
 I ported this to windows with modern C++ and corrected the format of  
